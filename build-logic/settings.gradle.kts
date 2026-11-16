@@ -11,6 +11,13 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+pluginManagement {
+  repositories {
+    maven { url = uri("https://maven-central.storage-download.googleapis.com/maven2/") }
+    google()
+    gradlePluginPortal()
+  }
+}
 rootProject.name = "media3-build-logic"
 
 includeBuild("../build-logic-settings")

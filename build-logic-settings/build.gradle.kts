@@ -19,5 +19,6 @@ version = "1.0"
 
 repositories {
   google()
+  maven { url = uri("https://maven-central.storage-download.googleapis.com/maven2/") }
   mavenCentral()
 }
